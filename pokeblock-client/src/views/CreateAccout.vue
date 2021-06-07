@@ -16,7 +16,7 @@
 <script>
 import axios from "axios";
 import Constants from "../Constants";
-import PokemonHolder from "./PokemonHolder";
+import PokemonHolder from "../components/PokemonHolder";
 
 export default {
   name: "CreateAccount",
