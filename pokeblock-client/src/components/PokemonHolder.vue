@@ -4,6 +4,7 @@
     <div class="card-body">
       <h5 class="card-title">{{ pokemon.name }}</h5>
       <h6 class="card-subtitle mb-2">{{ pokemon.type }}</h6>
+      <h8 class="card-text mb-2">Nivel: {{ pokemon.level }}</h8>
     </div>
   </div>
 </template>
