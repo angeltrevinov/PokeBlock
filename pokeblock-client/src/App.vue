@@ -16,6 +16,9 @@
             <router-link class="nav-link" to="/create-account">Create Account</router-link>
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" to="/my-pokemons">My Pokemons</router-link>
+          </li>
+          <li class="nav-item">
             <button v-if="Account === ''" type="button" class="btn btn-light" @click="connectMetaMask">Connect with MetaMask</button>
             <span class="nav-link mb-0 h6" v-else-if="Account !== ''">Account: {{ Account }}</span>
           </li>
@@ -31,6 +34,15 @@
 
 <script>
 import web3 from "./other-data/web3";
+
+/*
+* TODO: Conectar con el deploy
+* TODO: Crear un Starter
+* TODO: Traerme pokemons
+* TODO: Evolucionar
+* TODO: Batalla
+* TODO: Arreglar estilos
+* */
 
 export default {
   name: 'App',
