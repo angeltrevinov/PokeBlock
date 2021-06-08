@@ -15,7 +15,7 @@
 
 <script>
 import axios from "axios";
-import Constants from "../Constants";
+import Constants from "../other-data/Constants";
 import PokemonHolder from "../components/PokemonHolder";
 
 export default {
